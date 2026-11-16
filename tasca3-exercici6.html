@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercici 6 - HTML5</title>
+
+    <style>
+        table {
+            width: 510px;
+            height: 280px;
+            border: 1px solid gray;
+            border-spacing: 2px;
+            font-family: "Times New Roman", serif;
+            font-size: 12px;
+        }
+
+        td {
+            border: 1px solid white;
+            padding: 2px;
+        }
+
+        .formulari {
+            background-color: blue;
+            width: 185px;
+            height: 120px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .taula {
+            background-color: yellow;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .lletres {
+            background-color: red;
+            height: 25px;
+            vertical-align: top;
+        }
+
+        .enllacos {
+            background-color: gray;
+            height: 25px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .ordenades {
+            background-color: #ff0050;
+            width: 145px;
+            vertical-align: top;
+        }
+
+        .desordenades {
+            background-color: #00f044;
+            text-align: right;
+            vertical-align: bottom;
+        }
+
+        .imatge {
+            background-color: #5000ff;
+            height: 58px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .codi {
+            background-color: #b0c4d8;
+            text-align: center;
+            height: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <caption>Taula A. Estructura</caption>
+
+        <tr>
+            <td class="formulari" rowspan="2">
+                Aquí va el formulari
+            </td>
+            <td class="lletres" colspan="2">
+                Aquí provar alguns estils de lletres
+            </td>
+        </tr>
+
+        <tr>
+            <td class="enllacos" colspan="2">
+                Aquí provar tots els tipus d'enllaços
+            </td>
+        </tr>
+
+        <tr>
+            <td class="taula" rowspan="2">
+                Inserirem un altre taula
+            </td>
+            <td class="ordenades">
+                Exemple de llistes ordenades
+            </td>
+            <td class="desordenades">
+                Exemple de llistes desordenades
+            </td>
+        </tr>
+
+        <tr>
+            <td class="imatge" colspan="2">
+                Inserirem una imatge
+            </td>
+        </tr>
+
+        <tr>
+            <td class="codi" colspan="3">
+                Aquí hi anirà el codi font
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
